@@ -1,0 +1,22 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="../js/jquery.shoutcast.easy.min.js?host=http://127.0.0.1&port:3000"></script>
+</head>
+
+<body>
+	<h1>AlexHits Radio</h1>
+
+	<audio controls autoplay>
+		<source src="http://s9.voscast.com:8396/;stream1386924776725/1" >
+	</audio>
+
+	<h1 data-shoutcast-value="servertitle"></h1>
+      
+      <p>Now Playing: <span data-shoutcast-value="songtitle"></span></p>
+      <p>Listeners: <span data-shoutcast-value="currentlisteners"></span>/<span data-shoutcast-value="maxlisteners"></span></p>
+      
+      <h2>You just missed</h2>
+      <ul id="played"></ul>
+      
+</body>
+
